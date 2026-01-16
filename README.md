@@ -268,22 +268,6 @@ tail -f /var/log/grafana/grafana.log
 sudo journalctl -u mosquito.service -f
 ```
 
-
-## 📄 Licencia
-
-Este proyecto es de código abierto y está disponible bajo la licencia MIT.
-
-## 👨‍💻 Autor
-
-**Diego Barboteo**
-
-## 🙏 Agradecimientos
-
-- API de precios de metales: [gold-api.com](https://www.gold-api.com/)
-- InfluxDB por InfluxData
-- Grafana Labs
-- Terraform by HashiCorp
-
 ---
 
 **Nota**: Este proyecto fue diseñado para fines educativos y de demostración. Para uso en producción, considera implementar medidas adicionales de seguridad, alta disponibilidad y respaldo de datos.
