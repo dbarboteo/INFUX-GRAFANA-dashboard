@@ -17,13 +17,13 @@ El sistema incluye un script Python (`mosquito.py`) que se ejecuta automáticame
 ┌─────────────────────────────────────────────────┐
 │                    AWS VPC                      │
 │                                                 │
-│  ┌──────────────────┐      ┌─────────────────┐ │
-│  │  EC2 InfluxDB    │◄─────┤  EC2 Grafana    │ │
-│  │  - InfluxDB 1.x  │      │  - Grafana      │ │
-│  │  - mosquito.py   │      │  - Dashboard    │ │
-│  │  - Port 8086     │      │  - Port 3000    │ │
-│  │  (privado)       │      │  (público)      │ │
-│  └──────────────────┘      └─────────────────┘ │
+│  ┌──────────────────┐      ┌─────────────────┐  │
+│  │  EC2 InfluxDB    │◄─────┤  EC2 Grafana    │  │
+│  │  - InfluxDB 1.x  │      │  - Grafana      │  │
+│  │  - mosquito.py   │      │  - Dashboard    │  │
+│  │  - Port 8086     │      │  - Port 3000    │  │
+│  │  (privado)       │      │  (público)      │  │
+│  └──────────────────┘      └─────────────────┘  │
 │         │                          │            │
 │         │                    Elastic IP         │
 │         │                          │            │
